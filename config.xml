@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.quality.communications"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Quality Communications</name>
+
+  <description>
+      Fragen für eine bessere Kommunikation, im Stile von UnGame.
+  </description>
+
+  <author href="http://nischenlicht.de" email="app@nischenlicht.de">
+      Robert Bartha
+  </author>
+
+</widget>
