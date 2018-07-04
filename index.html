@@ -39,6 +39,23 @@
 	position:relative;
 	top:1px;
 }
+.contentCentered {
+font-size: 1.5em;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+margin: 0 auto;
+right: 10%;
+left: 10%;}
+
+.contentThird {
+position: absolute;
+top: 80%;
+transform: translateY(-50%);
+margin: 0 auto;
+right: 0;
+left: 0;}
+
 
 </style><meta content="text/html; charset=UTF-8" http-equiv="content-type">
   </head>
@@ -238,12 +255,12 @@ if (quotes==186) {body="Welche Eigenschaft oder Fähigkeit würdest du gerne in 
 if (quotes==187) {body="Welches sind die zwei oder drei Probleme, die, wenn gelöst, den größten positiven Effekt auf die Menschheit hätte?";}
 if (quotes==188) {body="Welche eine Eigenschaft würdest du deinem Kind am meisten wünschen?";}
 
-document.write('<div align=middle>');
+document.write('<div align=middle class="contentCentered">');
 document.write('<br>' + '<br>' + ''+ body +'' + '<br>' + '<br>' + '<br>' + '<br>');
 document.write('</div>');
 
 </script> <p></p>
-    <div align="center"> <a class="classname" href="javascript:history.go(0)">Weiter</a>
+    <div align="center" class="contentThird"> <a class="classname" href="javascript:history.go(0)">Weiter</a>
     </div>
   </body>
 </html>
