@@ -16,9 +16,11 @@
   <author href="http://nischenlicht.de" email="app@nischenlicht.de">
       Robert Bartha
   </author>
-
+  
+ <icon src="icon.png" width="180" height="180" />
+  
   <platform name="android" />
-  <icon src="icon.png" width="180" height="180" />
+ 
 </platform>
   
 </widget>
