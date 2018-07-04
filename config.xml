@@ -19,8 +19,4 @@
   
  <icon src="icon.png" width="180" height="180" />
   
-  <platform name="android" />
- 
-</platform>
-  
 </widget>
